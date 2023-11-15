@@ -21,7 +21,7 @@ def main():
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
-    print(f"Savings Account:")
+    print(f"Savings Account Balance and Interest Earned")
     print(f"Interest Earned:", (savings_interest))
     print(f"Updated Balance:", (updated_savings_balance))
 
@@ -37,7 +37,7 @@ def main():
 
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
-    print(f"CD Account:")
+    print(f"CD Account Balance and Interest Earned")
     print(f"Interest Earned:", (cd_interest))
     print(f"Updated Balance:", (updated_cd_balance))
 
