@@ -17,8 +17,8 @@ def main():
     savings_maturity = int(input("Please select the term in months:"))
 
     # Call the create_savings_account function and pass the variables from the user.
-    updated_savings_balance, interest_earned = create_savings_account(savings_balance, savings_interest, savings_maturity)
-
+    updated_savings_balance, savings_interest = create_savings_account(savings_balance, savings_interest, savings_maturity)
+    
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
     print(f"Savings Account Balance and Interest Earned")
@@ -33,8 +33,8 @@ def main():
 
 
     # Call the create_cd_account function and pass the variables from the user.
-    updated_cd_balance, interest_earned = create_cd_account(cd_balance, cd_interest, cd_maturity)
-
+    updated_cd_balance, cd_interest = create_cd_account(cd_balance, cd_interest, cd_maturity)
+    
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
     print(f"CD Account Balance and Interest Earned")
